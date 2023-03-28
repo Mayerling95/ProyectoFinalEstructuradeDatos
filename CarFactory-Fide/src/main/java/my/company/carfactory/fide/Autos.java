@@ -17,10 +17,11 @@ public class Autos {
     private String motor;
     private String carroceria;
     private String llantas;
+    private int precio;
     
     //Constructores
 
-    public Autos(int id, String nombre, String motor, String carroceria, String llantas) {
+    public Autos(int id, String nombre, String motor, String carroceria, String llantas, int precio) {
         this.id = id;
         this.nombre = nombre;
         this.motor = motor;
@@ -72,12 +73,19 @@ public class Autos {
     public void setLlantas(String llantas) {
         this.llantas = llantas;
     }
+    public void setprecio(int precio) {
+        this.precio = precio;
+    }
+
+    public String getprecio() {
+        return precio;
+    }
     
     //to String
 
     @Override
     public String toString() {
-        return "Autos{" + "id=" + id + ", nombre=" + nombre + ", motor=" + motor + ", carroceria=" + carroceria + ", llantas=" + llantas + '}';
+        return "Autos{" + "id=" + id + ", nombre=" + nombre + ", motor=" + motor + ", carroceria=" + carroceria + ", llantas=" + llantas + ", precio=" + precio + '}';
     }
     
 }
