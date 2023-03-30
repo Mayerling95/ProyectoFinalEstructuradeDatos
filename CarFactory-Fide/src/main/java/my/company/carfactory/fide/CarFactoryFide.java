@@ -10,6 +10,7 @@ Maldo David Mora Arias
 
 package my.company.carfactory.fide;
 
+
 /**
 Clase Main donde se correra el proyecto
 El jugador es el gerente de una de las fábricas de autos de la marca más prestigiosa 
@@ -19,9 +20,19 @@ El jugador es el gerente de una de las fábricas de autos de la marca más prest
  */
 public class CarFactoryFide {
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("Hello World!");
 
+        //prueba cinta
+        Cinta cinta = new Cinta(3);
+        cinta.imprimirCinta();
+        cinta.eliminarPrimero();
+        System.out.println("===========");
+        cinta.imprimirCinta();
+
+
+        }
+ 
     }
-}
