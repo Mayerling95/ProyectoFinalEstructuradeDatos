@@ -3,7 +3,7 @@
  */
 package com.mycompany.carfactory.fide;
 
-/*Encargada Britany Campos Aguilar
+/*Encargads Britany Campos Aguilar, David Mora Arias
  */
 public class Jugadores {
     //Se establecen 2 jugadores para realizar el juego
